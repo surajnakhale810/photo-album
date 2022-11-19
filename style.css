@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    /* background-color: aqua; */
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr ;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    /* padding: 0 10px; */
+    margin-top: 20px;
+    margin-left: 20px;
+    padding-right: 200px;
+
+}
+h1{
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 20px;
+}
+/* .item{
+    background-color: brown;
+     width: 150px;
+     height: 150px;
+} */
+.item1{
+    background-image: url("jonny-gios-IyL4zl1TYsw-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+.item2{
+    /* background-color: black; */
+    background-image: url("marek-piwnicki-QXtZnynwnnA-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+}
+.item3{
+    /* background-color: blueviolet; */
+    background-image: url("colin-watts-RcwxReK7y54-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+}
+.item4{
+    /* background-color: chartreuse; */
+    background-image: url("dickens-lin-UypUOPvuA-g-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+}
+.item5{
+    /* background-color: rgb(184, 19, 19); */
+    background-image: url("bernardo-lorena-ponte-GcBKr7Nk60w-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+}
+.item6{
+    /* background-color: rgb(163, 181, 30); */
+    background-image: url("mariano-baraldi-1jYWDenLUN0-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+
+}
+.item7{
+    /* background-color: rgb(255, 51, 0); */
+    background-image: url("brice-cooper-ygzyS6pypl4-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
